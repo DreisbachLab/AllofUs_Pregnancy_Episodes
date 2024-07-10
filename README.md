@@ -3,7 +3,7 @@
 ## Cohort 
 The cohort for this analysis is all participants who are assigned female at birth (AFAB). The total cohort count is n=249,565.
 
-## How to Use Files:
+## How to Use Files
   1. In your All of Us workspace, select Analysis
   2. Open a new Jupyter Notebook
   3. In the Jupyter ribbon, select File > Open
