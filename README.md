@@ -8,7 +8,7 @@ The cohort for this analysis is all participants assigned female at birth (AFAB)
 
 
 ## Description of files in this repo
-In this repository, we provide 12 files (4 .csv files, 5 .py files, 1 .ipynb file, one license, and one README file) for users who want to identify pregnancy episodes from the All of Us Research Program.
+In this repository, we provide 10 files (4 .csv files, 5 .py files, 1 .ipynb file) for users who want to identify pregnancy episodes from the All of Us Research Program.
 
 Input data files:
 
@@ -21,6 +21,7 @@ Input data files:
 •	**HIP_concepts.csv** contains data related to various medical or health concepts that are associated with pregnancy. This file helps identify and categorize different health concepts related to pregnancy.
 
 Python scripts (.py): 
+
 •	**ESD.py** aims to handle the extraction and processing of specific data related to timing-based concepts, such as visits, conditions, and other relevant medical records.
 
 •	**HIP.py** focuses on pulling outcome-based records, particularly those defined by certain concepts related to health information.
