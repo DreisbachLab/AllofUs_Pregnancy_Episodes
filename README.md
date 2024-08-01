@@ -12,36 +12,37 @@ In this repository, we provide 12 files (4 .csv files, 5 .py files, 1 .ipynb fil
 
 Input data files:
 
-•	Matcho_term_durations.csv contains data related to various pregnancy or medical terms. These term durations can be used to identify health episodes based on their length, categorize them into specific types.
+•	**Matcho_term_durations.csv** contains data related to various pregnancy or medical terms. These term durations can be used to identify health episodes based on their length, and categorize them into specific types.
 
-•	PPS_concepts.csv contains data related to specific concepts associated with pregnancy or prenatal care. This file serves as a reference for mapping different prenatal tests and procedures to specific gestational timeframes.
+•	**PPS_concepts.csv** contains data related to specific concepts associated with pregnancy or prenatal care. This file serves as a reference for mapping different prenatal tests and procedures to specific gestational timeframes.
 
-•	Matcho_outcome_limits.csv contains data specifying the minimum number of days required between different pregnancy-related events or categories. This file provides guidelines on the minimum allowable time intervals between various pregnancy-related events.
+•	**Matcho_outcome_limits.csv** contains data specifying the minimum number of days required between different pregnancy-related events or categories. This file provides guidelines on the minimum allowable time intervals between various pregnancy-related events.
 
-•	HIP_concepts.csv contains data related to various medical or health concepts that associated with pregnancy. This file helps identifying and categorizing different health concepts related to pregnancy.
+•	**HIP_concepts.csv** contains data related to various medical or health concepts that are associated with pregnancy. This file helps identify and categorize different health concepts related to pregnancy.
 
 Python scripts (.py): 
-•	ESD.py aims to handle the extraction and processing of specific data related to timing-based concepts, such as visits, conditions, and other relevant medical records.
+•	**ESD.py** aims to handle the extraction and processing of specific data related to timing-based concepts, such as visits, conditions, and other relevant medical records.
 
-•	HIP.py focuses on pulling outcome-based records, particularly those defined by certain concepts related to health information.
+•	**HIP.py** focuses on pulling outcome-based records, particularly those defined by certain concepts related to health information.
 
-•	PPS.py is used to process and analyze pregnancy or prenatal care related data, which involves various medical tests or procedures related to pregnancy.
+•	**PPS.py** is used to process and analyze pregnancy or prenatal care related data, which involves various medical tests or procedures related to pregnancy.
 
-•	HIP_PPS_Merge.py is responsible for merging data from the HIP and PPS datasets. 
+•	**HIP_PPS_Merge.py** is responsible for merging data from the HIP and PPS datasets. 
 
-•	HIPPS.py is the main script for the analysis, coordinating the different components (ESD, HIP, PPS) to generate the final dataset.
+•	**HIPPS.py** is the main script for the analysis, coordinating the different components (ESD, HIP, PPS) to generate the final dataset.
 
 ## Jupyter Notebook (.ipynb) 
 
-•	Full_HIPPS_Episodes.ipynb combines the data from various scripts and files. It performs the final steps of analysis and generate the final csv. data named “HIPPS_Pregnancy_Episodes.csv”
+•	**Full_HIPPS_Episodes.ipynb** combines the data from various scripts and files. It performs the final steps of analysis and generate the final csv. data named “HIPPS_Pregnancy_Episodes.csv”
 
-Instruction and license files:
+
+## Instruction and license files:
 
 •	README shows specific steps how to identify comprehensive information on pregnancy episodes among people whose sex assigned as “female” at birth. 
 
 •	License describes the terms under which the software and associated documentation files are distributed
 
-## Data dictionaries for these four csv files
+## Data dictionaries for the four CSV files
 
 
 
@@ -54,3 +55,10 @@ Instruction and license files:
   5. Open the workbook “Full_HIPPS_Episodes.ipynb”.
   6. Run the workbook “Full_HIPPS_Episodes.ipynb”. The full dataset will be saved as a .csv in your directory
 
+## References
+
+Jones, et al. https://github.com/jonessarae/n3c_pregnancy_cohort
+
+Jones SE, Bradwell KR, Chan LE, et al. Who is pregnant? Defining real-world data-based pregnancy episodes in the National COVID Cohort Collaborative (N3C). JAMIA Open. 2023;6(3):ooad067. Published 2023 Aug 16. doi:10.1093/jamiaopen/ooad067
+
+Smith LH, Wang W, Keefe-Oates B. Pregnancy episodes in All of Us: harnessing multi-source data for pregnancy-related research. J Am Med Inform Assoc. Published online July 24, 2024. doi:10.1093/jamia/ocae195
