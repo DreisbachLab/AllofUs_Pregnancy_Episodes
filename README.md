@@ -56,7 +56,7 @@ Python scripts (.py):
   3. In the Jupyter ribbon, select File > Open.
   4. In the above header, select 'Upload', and select the files from this repo (4 .csv files, 5 .py files from the repo, and the .ipynb file).
   5. Open the workbook “Full_HIPPS_Episodes.ipynb”.
-  6. Run the single, master workbook “Full_HIPPS_Episodes.ipynb”. The full dataset of pregnancy episodes will be saved as a .csv in your directory.
+  6. Run the single, master notebook “Full_HIPPS_Episodes.ipynb”. The full dataset of pregnancy episodes will be saved as a .csv in your directory.
 
 ## References
 
