@@ -54,9 +54,9 @@ Python scripts (.py):
   1. In your All of Us workspace where you generate the AFAB cohort, select “Analysis” along the top tab.
   2. Open a new Jupyter Notebook.
   3. In the Jupyter ribbon, select File > Open.
-  4. In the above header, select 'Upload', and select the files from this repo (4 csv files, 5 py files from the repo, and the ipynb file).
+  4. In the above header, select 'Upload', and select the files from this repo (4 .csv files, 5 .py files from the repo, and the .ipynb file).
   5. Open the workbook “Full_HIPPS_Episodes.ipynb”.
-  6. Run the workbook “Full_HIPPS_Episodes.ipynb”. The full dataset will be saved as a .csv in your directory
+  6. Run the single, master workbook “Full_HIPPS_Episodes.ipynb”. The full dataset of pregnancy episodes will be saved as a .csv in your directory.
 
 ## References
 
