@@ -45,7 +45,7 @@ Python scripts (.py):
 
 •	License describes the terms under which the software and associated documentation files are distributed
 
-## Data dictionaries for the four CSV files
+## Data dictionaries for the final output CSV file
 
 
 
