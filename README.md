@@ -1,7 +1,7 @@
 # Full HIPPS Episodes AOU Research 
 Final version for HIPPS_Pregnancy_Episodes, updated from June-September, 2025.
 
-Repo last updated on Sep 12, 2025.
+Repo last updated on Oct 28, 2025.
 Code last updated on Sep 11, 2025
 
 ## Access to All of Us Research Program Dataset
@@ -70,27 +70,27 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 *a. trimester_events:*
 
-*• Granularity: One row per individual clinical event (not aggregated)*
+• Granularity: One row per individual clinical event (not aggregated)
 
-*• Purpose: Raw labeled data — each event tagged with a trimester*
+• Purpose: Raw labeled data — each event tagged with a trimester
 
-*• Ex: Clinical event during which trimester*
+• Ex: Clinical event during which trimester
 
 *b. trimester_summary:*
 
-*• Granularity: One row per person–episode, aggregated by trimester*
+• Granularity: One row per person–episode, aggregated by trimester
 
-*• Purpose: Summary count of total events per trimester*
+• Purpose: Summary count of total events per trimester
 
-*• Ex: In each episode, how many clinical events per trimester*
+• Ex: In each episode, how many clinical events per trimester
     
 *c. trimester_event_details:*
 
-*• Granularity: One row per concept per trimester per episode*
+• Granularity: One row per concept per trimester per episode
 
-*• Purpose: Detailed summary showing what occurred and how often, grouped*
+• Purpose: Detailed summary showing what occurred and how often, grouped
 
-*• Ex: How many clinical events per person's concept domain visit per trimester*
+• Ex: How many clinical events per person's concept domain visit per trimester
 
 • `HIP_Trimester_Events.csv`
 
